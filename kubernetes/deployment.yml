@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: sunilpolaki/production:$GIT_COMMIT
+      - image: sunilpolaki/production:6fc5d2042c9fbb4ee8ce61db5bf0a0d7032f505d
         imagePullPolicy: Always
         name: solar-system
         ports:
