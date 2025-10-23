@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: sunilpolaki/production:2c262c3acb0263a403094c255c0647b2f50d61ab
+      - image: sunilpolaki/production:36b98ef8c696ed1c730037f51b9d48eb26cd5901
         imagePullPolicy: Always
         name: solar-system
         ports:
